@@ -1,0 +1,39 @@
+.myDiv {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #555;
+}
+.res {
+  margin: 200px;
+}
+.re2 {
+  margin: 300px;
+}
+
+.resizers {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #d5d5d5;
+  z-index: 2;
+}
+
+.t {
+  top: 0;
+  right: 0;
+  cursor: nw-resize;
+}
+
+.b {
+  bottom: 0;
+  right: 0;
+  cursor: nw-resize;
+}
+
+.l {
+  left: 0;
+  bottom: 0;
+  cursor: nw-resize;
+}
